@@ -76,3 +76,4 @@ module "s3" {
   tfstate_bucket_name = "lks-tfstate-${var.student_name}-${substr(var.aws_account_id, length(var.aws_account_id) - 8, 8)}"
   assets_bucket_name  = "lks-app-assets-${var.student_name}-2026"
 }
+
