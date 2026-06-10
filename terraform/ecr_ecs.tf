@@ -11,7 +11,6 @@ module "ecr" {
 
   providers = {
     aws        = aws
-    aws.oregon = aws.oregon
   }
 }
 
